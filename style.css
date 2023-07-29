@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --color-primary: #015532;
+  --color-secondary: #f2f2f2;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-green: #32cd32;
+}
+
+/* .container {
+    display: flex;
+} */
+
+.information-column {
+  padding: 40px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  text-align: center;
+}
+
+.information-column h1,
+h2 {
+  font-size: 18px;
+}
+
+.information-column hr {
+  border: none;
+  border-bottom: 1px solid var(--color-primary);
+  margin-top: 18px;
+}
+
+.information-column img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid var(--color-primary);
+  margin-bottom: 18px;
+}
+
+.information-column h3 {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.information-column ul {
+  list-style-type: none;
+}
+
+.information-column li {
+  text-align: left;
+  margin: 10px 0;
+}
+
+/* Contato */
+
+.contact-description a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.contact-description i {
+  color: var(--color-primary);
+  margin-right: 10px;
+}
+
+/* Formação */
+
+.education-descripition {
+  margin-top: 32px;
+}
+
+.education-descripition p {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* Idiomas */
+
+.language-description .percent {
+  height: 6px;
+  background-color: var(--color-primary);
+  margin-top: 5px;
+  width: 205px;
+}
+
+.language-description .percent div {
+  height: 6px;
+  background-color: var(--color-green);
+}
+
+.language-description .percent.spanish div {
+  width: 20%;
+}
+
+.language-description .percent.english div {
+  width: 15%;
+}
+
+/* Experiências */
+
+.experiences-column {
+  background-color: var(--color-white);
+  padding: 40px;
+  color: var(--color-black);
+}
+
+.experiences-column section {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.experiences-column h2 {
+  margin-bottom: 15px;
+}
+
+.experiences-column .experience {
+  margin-left: 14px;
+  text-align: justify;
+}
+
+.experiences-column a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+/* Projetos */
+
+.projects p {
+  margin-bottom: 20px;
+}
+
+/* Footer */
+
+.experiences-column .last-date {
+  text-align: right;
+  margin-top: 100px;
+}
+
+/* Responsividade para desktop */
+
+@media (min-width: 992px) {
+  .container {
+    display: flex;
+  }
+
+  .information-column img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .experiences-column h2 {
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+
+  .experiences-column {
+    width: 100%;
+  }
+
+  .experiences-column .experience {
+    display: flex;
+    text-align: justify;
+  }
+
+  .experience-date {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 120px;
+    width: 175px;
+  }
+
+  .experience-text {
+    display: block;
+    width: 100%;
+    margin: 20px;
+  }
+
+  .projects {
+    text-align: justify;
+  }
+
+  .experience-date {
+    width: 300px;
+  }
+}
