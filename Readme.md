@@ -6,7 +6,7 @@ Site do meu currículo online. Projeto desenvolvido durante o curso StepOne, uti
 
 ## Veja o projeto final:
 
-![Alt text](my-cv.gif)
+![Alt text](images/image-1.png)
 
 ## Tecnologias
 
