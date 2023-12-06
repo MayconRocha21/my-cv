@@ -2,11 +2,11 @@
 
 Site do meu currículo online. Projeto desenvolvido durante o curso StepOne, utilizando HTML, CSS e utilizando a metodologia Mobile First.
 
-🔗[Click here to access](https://MayconRocha21.github.io/My-CV/)
+🔗[Click here to access](https://mayconrocha21.github.io/my-cv/)
 
 ## Veja o projeto final:
 
-![Alt text](images/image-1.png)
+![Alt text](image.png)
 
 ## Tecnologias
 
