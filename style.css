@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.information-column {
+  padding: 50px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.information-column hr {
+  border: none;
+  border-bottom: 1px solid #008000;
+  margin-top: 18px;
+}
+.code{
+  display: flex;
+  width: auto;
+  
+}
+
+
+
+.information-column > .myimage {
+  width: 170px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 18px;
+  border: 5px solid #008000;
+}
+
+.information-column h3, .certifi, .habili-title {
+  text-align: left;
+  margin-top: 20px;
+  color: #008000;
+  font-size: 1.1rem;
+} 
+
+.information-column ul {
+  list-style-type: none;
+}
+
+.information-column li {
+  text-align: left;
+  margin: 10px 0;
+}
+
+/* .information-column{
+  margin: 10px 10px;
+  font-size: 1rem;
+}  */
+.areaAtual{
+  margin: 10px 10px;
+  font-size: 0.70rem;
+}
+
+.contact-description a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.contact-description i {
+  color: #008000;
+  margin-right: 10px;
+  font-size: 0.90rem;
+}
+
+.education-description {
+  margin-top: 32px;
+  font-size: 0.95rem;
+}
+.education-description p {
+  color: #008000;
+}
+
+.code img{
+  margin-top: 20px;
+  width: 30%;
+}
+
+.language-description p {
+  color: #fff;
+  font-size: 0.70rem;
+}
+
+.title-name{
+  font-size: 1.5rem;
+}
+
+.language-description .percent {
+  height: 6px;
+  background-color: #7d807d;
+  margin-top: 5px;
+  width: 205px;
+}
+
+.language-description .percent div {
+  height: 6px;
+  background-color: #008000;
+  margin-top: 5px;
+}
+
+.language-description .percent.english div {
+  width: 10%;
+}
+
+.experiences-column {
+  background-color: #fff;
+  padding: 40px;
+  color: #000;
+}
+h1{
+  font-size: 1.2rem;
+}
+
+.experiences-column section {
+  margin-bottom: 30px;
+}
+
+.experiences-column h2 {
+  margin-bottom: 15px;
+}
+
+.experiences-column .experience {
+  margin-bottom: 14px;
+}
+
+.experiences-column .experience ul{
+  list-style: none;
+}
+
+.experiences-column a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+
+footer{
+  text-align: right;
+}
+
+@media (min-width: 996px) {
+.container {
+    display: flex;
+    height: 100%;
+    background-color: #000;
+}
+
+.code{
+  display: flex;
+  width: auto;
+  
+}
+
+
+
+.code img{
+  max-height: 100%;
+  width: 50%;
+  align-items: right;
+
+}
+
+.information-column {
+    width: 60%;
+    border-radius: none;
+}
+
+.experiences-column{
+  width: 90%;
+}
+.localization{
+  font-size: 0.90rem;
+}
+.information-column p {
+  color: white;
+}
+.information-column{
+  width: 60%;
+  
+  font-size: 1.2rem;
+} 
+.areaAtual{
+  margin: 10px 10px;
+  font-size: 1rem;
+}
+
+.title-name{
+  font-size: 2rem;
+}
+.information-column h3,.certifi, .habili-title {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: #008000;
+  text-align: left;
+}
+
+.experiences-column p {
+  font-size: 0.90rem;
+}
+.experiences-column h3 {
+  font-size: 1.2rem;
+}
+.experiences-column h4 {
+  font-size: 1rem;
+}
+
+
+
+}
