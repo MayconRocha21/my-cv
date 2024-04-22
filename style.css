@@ -26,14 +26,11 @@
   
 }
 
-
-
-.information-column > .myimage {
-  width: 170px;
-  height: 150px;
+.myimage{
+  width: 200px;
+  height: 200px;
+  border: 1px solid #008000;
   border-radius: 50%;
-  margin-bottom: 18px;
-  border: 5px solid #008000;
 }
 
 .information-column h3, .certifi, .habili-title {
@@ -75,15 +72,14 @@
 
 .education-description {
   margin-top: 32px;
-  font-size: 0.95rem;
+  font-size: 1rem;
+}
+
+.education-description h5{
+  font-size: 1rem;
 }
 .education-description p {
   color: #008000;
-}
-
-.code img{
-  margin-top: 20px;
-  width: 30%;
 }
 
 .language-description p {
@@ -143,6 +139,14 @@ h1{
   font-weight: bold;
 }
 
+.habili-description ul li i{
+  font-size: 2rem;
+}
+
+.habili-description ul li{
+  display: flex;
+  gap: 15px;
+}
 
 footer{
   text-align: right;
