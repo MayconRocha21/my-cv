@@ -27,8 +27,8 @@
 }
 
 .myimage{
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border: 1px solid #008000;
   border-radius: 50%;
   object-fit: cover;
