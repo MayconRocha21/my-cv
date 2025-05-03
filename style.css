@@ -154,6 +154,20 @@ h1{
   gap: 15px;
 }
 
+.btn{
+  background-color: #7d807d;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover{
+  background-color: #008000;
+  color: #fff;
+}
+
 footer{
   text-align: right;
 }
@@ -224,7 +238,5 @@ footer{
 .experiences-column h4 {
   font-size: 1rem;
 }
-
-
 
 }

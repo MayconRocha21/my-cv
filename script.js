@@ -187,13 +187,22 @@ const path = require('path'); // Importe a biblioteca 'path'
                  Confira o código fonte <a href="https://github.com/MayconRocha21/Quiz-JavaScript" target="_blank"> aqui </a>.</p>
                 <br>
                 <br>
-                Clique para ver mais projetos 
+                 
                 <a href="https://github.com/MayconRocha21" target="_blank">  
-                    <i class="fa-brands fa-github"></i></a>
+                  Clique aqui para ver mais projetos</a>
 
                   <br>
 
         </section>
+
+        <button class="btn">
+          <a href="meu_documento.pdf" download="meu_documento">Baixar PDF</a> 
+        </button>
+        
+        
+        <br>
+        <br>
+        
         <footer>Última atualização: 02/05/2025 </footer>
       </div>
     </div>
