@@ -14,7 +14,7 @@ const path = require('path'); // Importe a biblioteca 'path'
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV - Maycon Rocha</title>
+    <title>Currículo - Maycon Rocha</title>
     <link rel="stylesheet" media="screen" href="style.css" />
     <script
       src="https://kit.fontawesome.com/086db1c966.js"
@@ -24,9 +24,9 @@ const path = require('path'); // Importe a biblioteca 'path'
   <body>
     <div class="container">
       <div class="information-column">
-        <img class="myimage" src="./img/Eu.jpeg" alt="Foto de Maycon Rocha">
+       
         <h1 class="title-name">Maycon Rocha</h1>
-        <h2 class="areaAtual">Analista de testes Funcionais</h2>
+        <h2 class="areaAtual">QA Júnior</h2>
         <hr/>
         <div class="contact-description">
           <h3>Contato</h3>
@@ -134,7 +134,7 @@ const path = require('path'); // Importe a biblioteca 'path'
           <h2>Objetivo</h2>
           <div>
             <p>
-              Conquistar uma vaga na área de QA Jr, Desenvolvimento Front-end ou na área de Dados, aplicando minhas habilidades em desenvolvimento de software e análise de dados. Desejo contribuir para a qualidade dos projetos e crescer profissionalmente.
+              Atuar como QA Jr, Front-end Developer ou Analista de Dados, aplicando minhas habilidades técnicas para contribuir com a qualidade dos projetos e crescer na área de tecnologia.
             </p>
           </div>
           </section>
@@ -153,14 +153,12 @@ const path = require('path'); // Importe a biblioteca 'path'
                 <br>
                 <p class="main-activities">Principais atividades desenvolvidas:</p>
                   <ul>
-                    <li>
-                      <p>Teste Funcional e manual;</p>
-                      <p>Criação de massa para teste;</p>
-                      <p>Utilização de metodologias ágeis, como Scrum e Kanban, para gerenciar projetos e otimizar procedimentos entre equipes;</p>
-                      <p>Consultas no banco de dados Oracle SQL;</p>
-                      <p>Criação de evidências para abertura de defeito;</p>
-                      <p>Consultas de API com Postman.</p>
-                    </li>
+                    <li>Execução de testes funcionais manuais</li>
+                    <li>Criação de massa de dados para testes</li>
+                    <li>Participação em squads ágeis com metodologias Scrum e Kanban</li>
+                    <li>Consultas em banco de dados Oracle SQL</li>
+                    <li>Registro de evidências e abertura de defeitos</li>
+                    <li>Testes e validações de API com Postman</li>
                   </ul>
               </div>
             </div>
@@ -170,21 +168,21 @@ const path = require('path'); // Importe a biblioteca 'path'
           <h2>Principais Projetos:</h2>
           <div>
            <h3>Dev Links</h3>
-          <p>Site para centralizar os links mais importantes em um só lugar. Desenvolvido com HTML e CSS no curso StepOne, depois foi melhorado durante uma imersão da Rocketseat. Confira <a href="https://dev-links-pearl.vercel.app/" target="_blank">aqui</a> e o código fonte <a href="https://github.com/MayconRocha21/Dev_Links" target="_blank"
-            >aqui</a>.</p>
+          <p>Site para centralizar links importantes. Desenvolvido com HTML, CSS e JavaScript. <br>
+            <a href="https://dev-links-pearl.vercel.app/" target="_blank">Visualizar </a> | <a href="https://github.com/MayconRocha21/Dev_Links" target="_blank">Código fonte</a>.</p>
             <br>
           <div>
 
             <h3>Calculo Combustível</h3>
-            <p>Projeto desenvolvido para verificar qual combustível compensa abastecer e também para exercitar as habilidades em lógica de programação em JS.
-               Confira <a href="https://gasolina-ou-alcool.vercel.app/"target="_blank"
-              > aqui </a> e o código fonte <a href="https://github.com/MayconRocha21/calculo-combustivel" target="_blank"
-              > aqui </a>.</p>
+            <p>App para comparar custo-benefício de combustíveis. Feito com HTML, CSS e JS. <br>
+              <a href="https://gasolina-ou-alcool.vercel.app/"target="_blank"
+              > Visualizar </a> | <a href="https://github.com/MayconRocha21/calculo-combustivel" target="_blank"
+              > código fonte </a>.</p>
               <br>
 
               <h3>Quiz sobre JavaScript</h3>
-              <p>Aplicação desenvolvida no NLW Expert da Rocketseat na trilha HTML, CSS e JavaScript.
-                 Confira o código fonte <a href="https://github.com/MayconRocha21/Quiz-JavaScript" target="_blank"> aqui </a>.</p>
+              <p>Aplicação interativa criada com HTML, CSS e JavaScript no NLW Expert. <br>
+                <a href="https://github.com/MayconRocha21/Quiz-JavaScript" target="_blank"> código fonte </a>.</p>
                 <br>
                 <br>
                  
@@ -203,13 +201,14 @@ const path = require('path'); // Importe a biblioteca 'path'
         <br>
         <br>
         
-        <footer>Última atualização: 02/05/2025 </footer>
+        <footer>Última atualização: 04/05/2025 </footer>
       </div>
     </div>
     <script src="script.js"></script>
   </body>
   
 </html>
+
   `; // Substitua com seu HTML
  // Carregue o conteúdo HTML
  await page.setContent(htmlContent);
