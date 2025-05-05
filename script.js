@@ -26,7 +26,7 @@ const path = require('path'); // Importe a biblioteca 'path'
       <div class="information-column">
        
         <h1 class="title-name">Maycon Rocha</h1>
-        <h2 class="areaAtual">QA Jr | Análise de Dados</h2>
+        <h2 class="areaAtual">QA Jr | Análise de Dados | Front-end developer</h2>
         <hr/>
         <div class="contact-description">
           <h3>Contato</h3>
