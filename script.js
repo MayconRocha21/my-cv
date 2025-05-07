@@ -182,7 +182,8 @@ const path = require('path'); // Importe a biblioteca 'path'
 
               <h3>Quiz sobre JavaScript</h3>
               <p>Aplicação interativa criada com HTML, CSS e JavaScript no NLW Expert. <br>
-                <a href="https://github.com/MayconRocha21/Quiz-JavaScript" target="_blank"> código fonte </a>.</p>
+                <a href="https://quiz-java-script-xi.vercel.app/"target="_blank"
+              > Visualizar </a> | <a href="https://github.com/MayconRocha21/Quiz-JavaScript" target="_blank"> código fonte </a>.</p>
                 <br>
                 <br>
                  
