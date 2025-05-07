@@ -26,7 +26,7 @@ const path = require('path'); // Importe a biblioteca 'path'
       <div class="information-column">
        
         <h1 class="title-name">Maycon Rocha</h1>
-        <h2 class="areaAtual">QA Jr | Front-end developer</h2>
+        <h2 class="areaAtual">QA Jr | Python developer</h2>
         <hr/>
         <div class="contact-description">
           <h3>Contato</h3>
@@ -69,6 +69,14 @@ const path = require('path'); // Importe a biblioteca 'path'
             
             <li>
               <h4 class="certifi">Certificados</h4>
+              <br>
+               <h5>Alura - Formação Aprenda a programar em Python com Orientação a Objetos</h5>
+              <br>
+              <h5>Alura - Análise de dados com Python: utilizando o ChatGPT como assistente</h5>
+              <br>
+              <h5>Alura - Quality Assurance: plano de testes e gestão de bugs</h5>
+              <br>
+              <h5>Udemy - Python Fundamentos</h5>
               <br>
               <h5>Udemy - Banco de Dados SQL do Zero ao Avançado + Projetos Reais</h5>
               <br>
