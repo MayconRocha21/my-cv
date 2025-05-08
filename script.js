@@ -26,7 +26,7 @@ const path = require('path'); // Importe a biblioteca 'path'
       <div class="information-column">
        
         <h1 class="title-name">Maycon Rocha</h1>
-        <h2 class="areaAtual">QA Jr | Python developer</h2>
+        <h2 class="areaAtual">QA Jr</h2>
         <hr/>
         <div class="contact-description">
           <h3>Contato</h3>
@@ -203,7 +203,7 @@ const path = require('path'); // Importe a biblioteca 'path'
         </section>
 
         <button class="btn">
-          <a href="meu_documento.pdf" download="meu_documento">Baixar PDF</a> 
+          <a href="Cv_MayconRocha.pdf" download="meu_documento">Baixar PDF</a> 
         </button>
         
         
