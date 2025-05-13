@@ -26,7 +26,7 @@ const path = require('path'); // Importe a biblioteca 'path'
       <div class="information-column">
        
         <h1 class="title-name">Maycon Rocha</h1>
-        <h2 class="areaAtual">QA Jr</h2>
+        <h2 class="areaAtual">QA Jr | Análista de dados</h2>
         <hr/>
         <div class="contact-description">
           <h3>Contato</h3>
@@ -142,7 +142,7 @@ const path = require('path'); // Importe a biblioteca 'path'
           <h2>Objetivo</h2>
           <div>
             <p>
-              Atuar como QA Jr, Front-end Developer ou Analista de Dados, aplicando minhas habilidades técnicas para contribuir com a qualidade dos projetos e crescer na área de tecnologia.
+              Atuar como QA Jr ou Análise de dados, aplicando minhas habilidades técnicas para contribuir com a qualidade dos projetos e crescer na área de tecnologia.
             </p>
           </div>
           </section>
