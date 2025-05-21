@@ -70,6 +70,8 @@ const path = require('path'); // Importe a biblioteca 'path'
             <li>
               <h4 class="certifi">Certificados</h4>
               <br>
+              <h5>DIO - Excel com Inteligência Artificial </h5>
+              <br>
                <h5>Alura - Formação Aprenda a programar em Python com Orientação a Objetos</h5>
               <br>
               <h5>Alura - Análise de dados com Python: utilizando o ChatGPT como assistente</h5>
