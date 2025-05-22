@@ -24,7 +24,6 @@ const path = require('path'); // Importe a biblioteca 'path'
   <body>
     <div class="container">
       <div class="information-column">
-       
         <h1 class="title-name">Maycon Rocha</h1>
         <h2 class="areaAtual">QA Jr | Análise de dados</h2>
         <hr/>
@@ -72,7 +71,7 @@ const path = require('path'); // Importe a biblioteca 'path'
               <br>
               <h5>DIO - Excel com Inteligência Artificial </h5>
               <br>
-               <h5>Alura - Formação Aprenda a programar em Python com Orientação a Objetos</h5>
+              <h5>Alura - Formação Aprenda a programar em Python com Orientação a Objetos</h5>
               <br>
               <h5>Alura - Análise de dados com Python: utilizando o ChatGPT como assistente</h5>
               <br>
@@ -144,7 +143,7 @@ const path = require('path'); // Importe a biblioteca 'path'
           <h2>Objetivo</h2>
           <div>
             <p>
-              Atuar como QA Jr ou Análise de dados, aplicando minhas habilidades técnicas para contribuir com a qualidade dos projetos e crescer na área de tecnologia.
+              Atuar como QA Jr, Automação de processos/tarefas ou Análise de dados, aplicando minhas habilidades técnicas para contribuir com a qualidade dos projetos e crescer na área de tecnologia.
             </p>
           </div>
           </section>
@@ -176,12 +175,16 @@ const path = require('path'); // Importe a biblioteca 'path'
          
         <section class="projects">
           <h2>Principais Projetos:</h2>
-          <div>
+          
+             <h3>Automacão PyWhatkit</h3>
+          <p>Script Python para automação de tarefas utilizando a biblioteca PyWhatKit, incluindo envio de mensagens WhatsApp, pesquisas, YouTube e mais. <br>
+           <a href="https://github.com/MayconRocha21/automacaoPyWhatkit" target="_blank">Código fonte</a>.</p>
+            <br>
            <h3>Dev Links</h3>
           <p>Site para centralizar links importantes. Desenvolvido com HTML, CSS e JavaScript. <br>
             <a href="https://dev-links-pearl.vercel.app/" target="_blank">Visualizar </a> | <a href="https://github.com/MayconRocha21/Dev_Links" target="_blank">Código fonte</a>.</p>
             <br>
-          <div>
+          
 
             <h3>Calculo Combustível</h3>
             <p>App para comparar custo-benefício de combustíveis. Feito com HTML, CSS e JS. <br>
@@ -212,13 +215,14 @@ const path = require('path'); // Importe a biblioteca 'path'
         <br>
         <br>
         
-        <footer>Última atualização: 04/05/2025 </footer>
+        <footer>Última atualização: 22/05/2025 </footer>
       </div>
     </div>
     <script src="script.js"></script>
   </body>
   
 </html>
+
 
   `; // Substitua com seu HTML
  // Carregue o conteúdo HTML
