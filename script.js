@@ -25,7 +25,7 @@ const path = require('path'); // Importe a biblioteca 'path'
     <div class="container">
       <div class="information-column">
         <h1 class="title-name">Maycon Rocha</h1>
-        <h2 class="areaAtual">QA Jr | Análise de dados</h2>
+        <h2 class="areaAtual">Desenvolvedor Front-end</h2>
         <hr/>
         <div class="contact-description">
           <h3>Contato</h3>
@@ -143,7 +143,7 @@ const path = require('path'); // Importe a biblioteca 'path'
           <h2>Objetivo</h2>
           <div>
             <p>
-              Atuar como QA Jr, Automação de processos/tarefas ou Análise de dados, aplicando minhas habilidades técnicas para contribuir com a qualidade dos projetos e crescer na área de tecnologia.
+              Atuar como QA Jr, Desenvolvedor Front-end Jr ou Análise de dados, aplicando minhas habilidades técnicas para contribuir com a qualidade dos projetos e crescer na área de tecnologia.
             </p>
           </div>
           </section>
