@@ -24,6 +24,7 @@ const path = require('path'); // Importe a biblioteca 'path'
   <body>
     <div class="container">
       <div class="information-column">
+        
         <h1 class="title-name">Maycon Rocha</h1>
         <h2 class="areaAtual">Analista de testes | Front-end developer</h2>
         <hr/>
@@ -69,6 +70,12 @@ const path = require('path'); // Importe a biblioteca 'path'
             <li>
               <h4 class="certifi">Certificados</h4>
               <br>
+              <h5>Udemy - Fundamentos do Teste de Software</h5>
+              <br>
+              <h5>Udemy - SQL para Profissionais Analíticos </h5>
+              <br>
+              <h5>Alura - JavaScript Aprendendo a Programar </h5>
+              <br>
               <h5>DIO - Componentes Funcionais no React </h5>
               <br>
               <h5>DIO - Excel com Inteligência Artificial </h5>
@@ -107,10 +114,10 @@ const path = require('path'); // Importe a biblioteca 'path'
           <h3 class="habili-title">Habilidades</h3>
           <ul>
             <li>
-              <i class="fa-brands fa-python"></i>
               <i class="fa-brands fa-js"></i>
-              <i class="fa-brands fa-css3-alt"></i>
               <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-python"></i>
               <i class="fa-solid fa-database"></i>
               <!-- <i class="fa-brands fa-node-js"></i>
               <i class="fa-brands fa-figma"></i> -->
@@ -164,12 +171,12 @@ const path = require('path'); // Importe a biblioteca 'path'
                 <br>
                 <p class="main-activities">Principais atividades desenvolvidas:</p>
                   <ul>
-                    <li>Execução de testes funcionais manuais</li>
+                    <li>Execução de testes funcionais e manuais</li>
                     <li>Criação de massa de dados para testes</li>
                     <li>Participação em squads ágeis com metodologias Scrum e Kanban</li>
                     <li>Consultas em banco de dados Oracle SQL</li>
                     <li>Registro de evidências e abertura de defeitos</li>
-                    <li>Testes e validações de API com Postman</li>
+                    <li>Validações de API com Postman</li>
                   </ul>
               </div>
             </div>
@@ -191,12 +198,12 @@ const path = require('path'); // Importe a biblioteca 'path'
               > código fonte </a>.</p>
               <br>
 
-              <h3>Quiz sobre JavaScript</h3>
+              <!-- <h3>Quiz sobre JavaScript</h3>
               <p>Aplicação interativa criada com HTML, CSS e JavaScript no NLW Expert. <br>
                 <a href="https://quiz-java-script-xi.vercel.app/"target="_blank"
               > Visualizar </a> | <a href="https://github.com/MayconRocha21/Quiz-JavaScript" target="_blank"> código fonte </a>.</p>
                 <br>
-                <br>
+                <br> -->
                  
                 <a href="https://github.com/MayconRocha21" target="_blank">  
                   Clique aqui para ver mais projetos</a>
@@ -220,7 +227,6 @@ const path = require('path'); // Importe a biblioteca 'path'
   </body>
   
 </html>
-
 
   `; // Substitua com seu HTML
  // Carregue o conteúdo HTML
